@@ -1,4 +1,4 @@
 # CHANGEME: Set these variable to your liking
-title: ESPHome Project Template
-description: Powered by ESPHome and ESP Web Tools
+title: 2 Channel WiFi AC Energy Meter based on XIAO ESP32C6 Firmware Flasher
+description: Powered by Seeed Studio, ESPHome and ESP Web Tools
 theme: jekyll-theme-slate

@@ -1,13 +1,53 @@
-# ESPHome Project Template
+# 2-Channel Energy Meter based on XIAO ESP32C6
 
-This repo serves as a template for creating a new ESPHome project.
+## Overview
+The **[2-Channel Wi-Fi AC Energy Meter](https://www.seeedstudio.com/)** is a smart device from Seeed Studio designed to detect the electricity usage of AC-powered appliances. Its dual-channel configuration supports independent detect of up to two loads, making it an excellent choice for automating a variety of devices in smart home environments.
 
-It includes a GitHub workflow that will automatically build the configuration(s) and then deploys a simple 
-website via GitHub pages that utilises [ESP Web Tools](https://esphome.github.io/esp-web-tools/) for users to 
-easily install your project onto their device.
+This guide provides a detailed walkthrough, including setup, integration, and advanced configuration for users ranging from beginners to smart-home enthusiasts.
 
-## Instructions
+### Key Features and Specifications
 
-1. Use this repo template to [generate](https://github.com/esphome/esphome-project-template/generate) your own repository.
-2. Clone your new repository.
-3. Follow the checklist created as an issue in your new repository.
+<div class="table-center">
+<table align="center">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Input Voltage</th>
+            <td>AC 100-240V, 50/60Hz</td>
+        </tr>
+        <tr>
+            <th>Channels</th>
+            <td>2 (independent detect for each channel)</td>
+        </tr>
+        <tr>
+            <th>Connection Type</th>
+            <td>Wi-Fi</td>
+        </tr>
+        <tr>
+            <th>Input Terminals</th>
+            <td>L (Live), N (Neutral), PE (Protective Earthing)</td>
+        </tr>
+        <tr>
+            <th>Effective Range of Current Detection</th>
+            <td>10mA-35A @ 1mΩ</td>
+        </tr>
+        <tr>
+            <th>Active Electrical Energy</th>
+            <td>1w-7700w @ 1mΩ</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+:::warning Safety Warning
+
+Always disconnect AC power before wiring. 
+
+:::
+
+For more information, please visit: https://wiki.seeedstudio.com/2_channel_wifi_ac_energy_meter/
